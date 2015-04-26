@@ -18,6 +18,6 @@ ggplot(data=Maryland.df,aes(x = year, y = Emissions)) +
   xlab('Year') +
   ylab(expression('PM'[2.5])) + 
   theme(legend.position = 'none') + 
-  ggtitle('PM [2.5] Motor Vehicle Emissions 1999-2008')
+  ggtitle(expression("PM"[2.5]*" Motor Vehicle Emissions 1999-2008"))
 
 dev.off()

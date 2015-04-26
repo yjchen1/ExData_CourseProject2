@@ -1,6 +1,5 @@
 #set location
 getwd()
-setwd("C:/Users/Yanjing/Documents/Assignment/M4_Assignment2")
 
 ## Read file
 NEI <- readRDS("summarySCC_PM25.rds")
